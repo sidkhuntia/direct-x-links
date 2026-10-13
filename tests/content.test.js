@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { collect, destinationFor, safeHttpUrl } = require('../extension/content.js');
+const { collect, destinationFor, safeHttpUrl } = require('../content.js');
 
 // 1. Shape of X's embedded page state (user.entities.url.urls[])
 const state = { entities: { users: { entities: { '1': { entities: { url: { urls: [
